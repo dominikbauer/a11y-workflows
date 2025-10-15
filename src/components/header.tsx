@@ -160,7 +160,6 @@ export const Header = () => {
                   <p className="font-semibold">$125.00</p>
                 </div>
               </div>
-
               <Link
                 to="/cart"
                 data-testid="go-to-cart"
