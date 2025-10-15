@@ -6,6 +6,10 @@
     "*.ts__tmpl__": "typescript",
     "*.scss": "tailwindcss"
   },
+  "files.exclude": {
+    "**/.git": false,
+    "**/.git/{branches,info,logs,objects,*refs,COMM*,desc*,*HEAD,index,}": true
+  },
   "editor.formatOnSave": true,
   "prettier.configPath": ".prettierrc",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
