@@ -80,7 +80,7 @@ export const Footer = () => {
             <ul>
               <li className="flex items-center mb-2">
                 <img
-                  src="/assets/images/social_icons/facebook.svg"
+                  src="assets/images/social_icons/facebook.svg"
                   alt="Facebook"
                   className="w-4 h-4 transition-transform transform hover:scale-110 mr-2"
                 />
@@ -90,7 +90,7 @@ export const Footer = () => {
               </li>
               <li className="flex items-center mb-2">
                 <img
-                  src="/assets/images/social_icons/twitter.svg"
+                  src="assets/images/social_icons/twitter.svg"
                   alt="Twitter"
                   className="w-4 h-4 transition-transform transform hover:scale-110 mr-2"
                 />
@@ -100,7 +100,7 @@ export const Footer = () => {
               </li>
               <li className="flex items-center mb-2">
                 <img
-                  src="/assets/images/social_icons/instagram.svg"
+                  src="assets/images/social_icons/instagram.svg"
                   alt="Instagram"
                   className="w-4 h-4 transition-transform transform hover:scale-110 mr-2"
                 />
@@ -110,7 +110,7 @@ export const Footer = () => {
               </li>
               <li className="flex items-center mb-2">
                 <img
-                  src="/assets/images/social_icons/pinterest.svg"
+                  src="assets/images/social_icons/pinterest.svg"
                   alt="Instagram"
                   className="w-4 h-4 transition-transform transform hover:scale-110 mr-2"
                 />
@@ -120,7 +120,7 @@ export const Footer = () => {
               </li>
               <li className="flex items-center mb-2">
                 <img
-                  src="/assets/images/social_icons/youtube.svg"
+                  src="assets/images/social_icons/youtube.svg"
                   alt="Instagram"
                   className="w-4 h-4 transition-transform transform hover:scale-110 mr-2"
                 />
@@ -174,9 +174,9 @@ export const Footer = () => {
           </div>
           {/* Payment Icons */}
           <div className="w-full lg:w-1/4 text-center lg:text-right">
-            <img src="/assets/images/social_icons/paypal.svg" alt="PayPal" className="inline-block h-8 mr-2" />
-            <img src="/assets/images/social_icons/stripe.svg" alt="Stripe" className="inline-block h-8 mr-2" />
-            <img src="/assets/images/social_icons/visa.svg" alt="Visa" className="inline-block h-8" />
+            <img src="assets/images/social_icons/paypal.svg" alt="PayPal" className="inline-block h-8 mr-2" />
+            <img src="assets/images/social_icons/stripe.svg" alt="Stripe" className="inline-block h-8 mr-2" />
+            <img src="assets/images/social_icons/visa.svg" alt="Visa" className="inline-block h-8" />
           </div>
         </div>
       </div>

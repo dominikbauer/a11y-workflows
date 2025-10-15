@@ -103,7 +103,7 @@ export const ProductPage = () => {
                       <img
                         onClick={() => changeImage('/assets/images/single-product/1.jpg')}
                         data-full="/assets/images/single-product/1.jpg"
-                        src="/assets/images/single-product/1.jpg"
+                        src="assets/images/single-product/1.jpg"
                         className="object-cover object-center max-h-30 max-w-full rounded-lg cursor-pointer"
                         alt="Gallery Image 1"
                       />
@@ -112,7 +112,7 @@ export const ProductPage = () => {
                       <img
                         onClick={() => changeImage('/assets/images/single-product/2.jpg')}
                         data-full="/assets/images/single-product/2.jpg"
-                        src="/assets/images/single-product/2.jpg"
+                        src="assets/images/single-product/2.jpg"
                         className="object-cover object-center max-h-30 max-w-full rounded-lg cursor-pointer"
                         alt="Gallery Image 2"
                       />
@@ -121,7 +121,7 @@ export const ProductPage = () => {
                       <img
                         onClick={() => changeImage('/assets/images/single-product/3.jpg')}
                         data-full="/assets/images/single-product/3.jpg"
-                        src="/assets/images/single-product/3.jpg"
+                        src="assets/images/single-product/3.jpg"
                         className="object-cover object-center max-h-30 max-w-full rounded-lg cursor-pointer"
                         alt="Gallery Image 3"
                       />
@@ -130,7 +130,7 @@ export const ProductPage = () => {
                       <img
                         onClick={() => changeImage('/assets/images/single-product/4.jpg')}
                         data-full="/assets/images/single-product/4.jpg"
-                        src="/assets/images/single-product/4.jpg"
+                        src="assets/images/single-product/4.jpg"
                         className="object-cover object-center max-h-30 max-w-full rounded-lg cursor-pointer"
                         alt="Gallery Image 4"
                       />
@@ -139,7 +139,7 @@ export const ProductPage = () => {
                       <img
                         onClick={() => changeImage('/assets/images/single-product/5.jpg')}
                         data-full="/assets/images/single-product/5.jpg"
-                        src="/assets/images/single-product/5.jpg"
+                        src="assets/images/single-product/5.jpg"
                         className="object-cover object-center max-h-30 max-w-full rounded-lg cursor-pointer"
                         alt="Gallery Image 5"
                       />

@@ -25,16 +25,11 @@ export const ProductsListPage = () => {
                 <option>Sort by A-Z</option>
               </select>
               <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center justify-center px-2">
-                <img
-                  id="arrow-down"
-                  className="h-4 w-4"
-                  src="/assets/images/filter-down-arrow.svg"
-                  alt="filter arrow"
-                />
+                <img id="arrow-down" className="h-4 w-4" src="assets/images/filter-down-arrow.svg" alt="filter arrow" />
                 <img
                   id="arrow-up"
                   className="h-4 w-4 hidden"
-                  src="/assets/images/filter-up-arrow.svg"
+                  src="assets/images/filter-up-arrow.svg"
                   alt="filter arrow"
                 />
               </div>

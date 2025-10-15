@@ -25,7 +25,7 @@ export const CartPage = () => {
                           <div className="flex items-center flex-col sm:flex-row text-center sm:text-left">
                             <img
                               className="h-16 w-16 md:h-24 md:w-24 sm:mr-8 mb-4 sm:mb-0"
-                              src="/assets/images/single-product/1.jpg"
+                              src="assets/images/single-product/1.jpg"
                               alt="Product image"
                             />
                             <p className="text-sm md:text-base md:font-semibold">Summer black dress</p>
@@ -50,7 +50,7 @@ export const CartPage = () => {
                           <div className="flex items-center flex-col sm:flex-row text-center sm:text-left">
                             <img
                               className="h-16 w-16 md:h-24 md:w-24 sm:mr-8 mb-4 sm:mb-0"
-                              src="/assets/images/single-product/2.jpg"
+                              src="assets/images/single-product/2.jpg"
                               alt="Product image"
                             />
                             <p className="text-sm md:text-base md:font-semibold">Black suit</p>

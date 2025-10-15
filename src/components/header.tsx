@@ -133,7 +133,7 @@ export const Header = () => {
                 <div className="flex items-center justify-between pb-4 border-b border-gray-line">
                   <div className="flex items-center">
                     <img
-                      src="/assets/images/single-product/1.jpg"
+                      src="assets/images/single-product/1.jpg"
                       alt="Product"
                       className="h-12 w-12 object-cover rounded mr-2"
                     />
@@ -148,7 +148,7 @@ export const Header = () => {
                 <div className="flex items-center justify-between">
                   <div className="flex items-center">
                     <img
-                      src="/assets/images/single-product/2.jpg"
+                      src="assets/images/single-product/2.jpg"
                       alt="Product"
                       className="h-12 w-12 object-cover rounded mr-2"
                     />
