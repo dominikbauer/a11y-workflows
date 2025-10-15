@@ -6,6 +6,11 @@
 # rules and tags
 # https://docs.deque.com/linter/4.0.0/en/axe-linter-rules
 
+# pre commit hook
+# https://docs.deque.com/linter/4.0.0/en/axe-linter-git-pre-commit-hook
+# connector install
+# https://docs.deque.com/linter/4.0.0/en/agora-npm-connector
+
 
 exclude:
   - '**/build/**'
