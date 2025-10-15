@@ -3,7 +3,7 @@ name: Linting for accessibility issues
 on: [pull_request]
 
 jobs:
-  build:
+  axe-linter:
     runs-on: ubuntu-latest
 
     steps:
