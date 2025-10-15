@@ -1,0 +1,15 @@
+{
+  "files.associations": {
+    "*.css__tmpl__": "css",
+    "*.tsx__tmpl__": "typescriptreact",
+    "*.yml__tmpl__": "yaml",
+    "*.ts__tmpl__": "typescript",
+    "*.scss": "tailwindcss"
+  },
+  "editor.formatOnSave": true,
+  "prettier.configPath": ".prettierrc",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "eslint.validate": ["ts", "tsx", "javascript", "javascriptreact"],
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "liveServer.settings.port": 5501
+}
