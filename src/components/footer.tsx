@@ -180,6 +180,20 @@ export const Footer = () => {
           </div>
         </div>
       </div>
+
+      <div className="container mx-auto px-4 py-10">
+        <p className="text-xs text-gray-txt text-opacity-50">
+          Shop-Template from
+          <a
+            href="https://spacema-dev.com/tailstore-free-tailwind-css-ecommerce-template-for-online-store/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline"
+          >
+            https://spacema-dev.com/tailstore-free-tailwind-css-ecommerce-template-for-online-store/
+          </a>
+        </p>
+      </div>
     </footer>
   );
 };
