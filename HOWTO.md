@@ -4,6 +4,7 @@
   - [Configuring axe DevTools Linter](#configuring-axe-devtools-linter)
   - [Git pre-commit hook](#git-pre-commit-hook)
   - [Github Action for axe DevTools Linter](#github-action-for-axe-devtools-linter)
+  - [Setup Github Pages](#setup-github-pages)
   - [Developer Hub](#developer-hub)
 
 ## Configuring axe DevTools Linter
@@ -92,6 +93,10 @@ exit $StatusCode
   > Settings > Secrets and variables > Repository secrets
   >
   > add `AXE_LINTER_API_KEY` secret key with your axe Linter API key as secret value
+
+## Setup Github Pages
+
+- General Setip https://blog.logrocket.com/gh-pages-react-apps/
 
 ## Developer Hub
 
