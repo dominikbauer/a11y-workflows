@@ -3,6 +3,7 @@
 - [A11y Workflow How To](#a11y-workflow-how-to)
   - [Configuring axe DevTools Linter](#configuring-axe-devtools-linter)
   - [Git pre-commit hook](#git-pre-commit-hook)
+  - [Github Action](#github-action)
 
 ## Configuring axe DevTools Linter
 
@@ -82,3 +83,8 @@ if [ "$StatusCode" != "0" ]; then
 fi
 exit $StatusCode
 ```
+
+
+## Github Action
+
+- https://docs.deque.com/linter/4.0.0/en/axe-linter-github-action
