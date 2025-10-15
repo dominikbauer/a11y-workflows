@@ -124,7 +124,7 @@ export const Header = () => {
 
           <div className="relative group cart-wrapper">
             <Link to="/cart" data-testid="show-cart-dropdown">
-              <img src="assets/images/cart-shopping.svg" alt="Cart" className="h-6 w-6 group-hover:scale-120" />
+              <img src="assets/images/cart-shopping.svg" className="h-6 w-6 group-hover:scale-120" />
             </Link>
             {/* Cart dropdown */}
             <div className="absolute right-0 mt-1 w-80 bg-white shadow-lg p-4 rounded hidden group-hover:block">
