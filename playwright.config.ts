@@ -27,7 +27,7 @@ export default defineConfig({
   /* Configure projects for major browsers */
   projects: [
     {
-      name: 'desktop chrome',
+      name: 'Desktop Chrome',
       use: { ...devices['Desktop Chrome'] },
     },
 
@@ -40,7 +40,6 @@ export default defineConfig({
     //   name: 'Mobile Safari',
     //   use: { ...devices['iPhone 12'] },
     // },
-
   ],
 
   /* Run your local dev server before starting the tests */

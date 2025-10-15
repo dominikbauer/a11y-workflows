@@ -3,7 +3,8 @@
 - [A11y Workflow How To](#a11y-workflow-how-to)
   - [Configuring axe DevTools Linter](#configuring-axe-devtools-linter)
   - [Git pre-commit hook](#git-pre-commit-hook)
-  - [Github Action](#github-action)
+  - [Github Action for axe DevTools Linter](#github-action-for-axe-devtools-linter)
+  - [Developer Hub](#developer-hub)
 
 ## Configuring axe DevTools Linter
 
@@ -20,9 +21,9 @@
 - connector install
   https://docs.deque.com/linter/4.0.0/en/agora-npm-connector
 - add API key to environment  
-  `export AXE_LINTER_API_KEY=`
+  `export AXE_LINTER_API_KEY=######`
 
-pre-commit hook script:
+Create pre-commit hook script file in `.git/hooks/pre-commit`:
 
 ```bash
 #!/bin/bash
@@ -84,7 +85,17 @@ fi
 exit $StatusCode
 ```
 
-
-## Github Action
+## Github Action for axe DevTools Linter
 
 - https://docs.deque.com/linter/4.0.0/en/axe-linter-github-action
+- create `AXE_LINTER_API_KEY` secret in your Github repository
+  > Settings > Secrets and variables > Repository secrets
+  >
+  > add `AXE_LINTER_API_KEY` secret key with your axe Linter API key as secret value
+
+## Developer Hub
+
+- create `AXE_DEVHUB_API_KEY` secret in your Github repository
+  > Settings > Secrets and variables > Repository secrets
+  >
+  > add `AXE_DEVHUB_API_KEY` secret key with your axe Developer Hub API key as secret value
