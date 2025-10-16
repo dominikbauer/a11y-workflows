@@ -6,6 +6,7 @@
   - [Github Action for axe DevTools Linter](#github-action-for-axe-devtools-linter)
   - [Setup Github Pages](#setup-github-pages)
   - [Developer Hub](#developer-hub)
+  - [Developer Hub Github Action](#developer-hub-github-action)
 
 ## Configuring axe DevTools Linter
 
@@ -16,7 +17,7 @@
 ## Git pre-commit hook
 
 - [Pre Commit Hook](https://docs.deque.com/linter/4.0.0/en/axe-linter-git-pre-commit-hook)
-- [Connector Install](https://docs.deque.com/linter/4.0.0/en/agora-npm-connector)  
+- [Connector Install](https://docs.deque.com/linter/4.0.0/en/agora-npm-connector)
 - Add API key to environment
   `export AXE_LINTER_API_KEY=######`
 
@@ -96,7 +97,13 @@ exit $StatusCode
 
 ## Developer Hub
 
+- [Documentation](https://docs.deque.com/developer-hub/2/en/dh-get-started)
 - create `AXE_DEVHUB_API_KEY` secret in your Github repository
   > Settings > Secrets and variables > Repository secrets
   >
   > add `AXE_DEVHUB_API_KEY` secret key with your axe Developer Hub API key as secret value
+
+## Developer Hub Github Action
+
+- [Documentation](https://docs.deque.com/developer-hub/2/en/dh-github-action)
+- [Repository](https://github.com/dequelabs/axe-devhub-action)
