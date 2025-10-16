@@ -36,7 +36,7 @@ export const LoginPage = () => {
                   </label>
                 </div>
                 <div className="mb-3">
-                  <a href="#" className="text-primary hover:underline">
+                  <a href="/" className="text-primary hover:underline">
                     Forgot Password?
                   </a>
                 </div>

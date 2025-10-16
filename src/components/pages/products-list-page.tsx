@@ -1,3 +1,4 @@
+import { Link } from 'react-router';
 import { ProductTile } from '../snippets/product-tile';
 
 export const ProductsListPage = () => {
@@ -199,33 +200,33 @@ export const ProductsListPage = () => {
               <nav aria-label="Page navigation">
                 <ul className="inline-flex space-x-2">
                   <li>
-                    <a
-                      href="#"
+                    <Link
+                      to="/products"
                       className="bg-primary text-white w-10 h-10 flex items-center justify-center rounded-full"
                     >
                       1
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="#"
+                    <Link
+                      to="/products"
                       className="w-10 h-10 flex items-center justify-center rounded-full hover:bg-primary hover:text-white"
                     >
                       2
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="#"
+                    <Link
+                      to="/products"
                       className="w-10 h-10 flex items-center justify-center rounded-full hover:bg-primary hover:text-white"
                     >
                       3
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" className="w-10 h-10 flex items-center justify-center rounded-full">
+                    <Link to="/products" className="w-10 h-10 flex items-center justify-center rounded-full">
                       Next
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </nav>

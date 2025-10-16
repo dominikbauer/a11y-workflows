@@ -84,7 +84,7 @@ export const Footer = () => {
                   alt="Facebook"
                   className="w-4 h-4 transition-transform transform hover:scale-110 mr-2"
                 />
-                <a href="#" className="hover:text-primary">
+                <a href="/" className="hover:text-primary">
                   Facebook
                 </a>
               </li>
@@ -94,7 +94,7 @@ export const Footer = () => {
                   alt="Twitter"
                   className="w-4 h-4 transition-transform transform hover:scale-110 mr-2"
                 />
-                <a href="#" className="hover:text-primary">
+                <a href="/" className="hover:text-primary">
                   Twitter
                 </a>
               </li>
@@ -104,7 +104,7 @@ export const Footer = () => {
                   alt="Instagram"
                   className="w-4 h-4 transition-transform transform hover:scale-110 mr-2"
                 />
-                <a href="#" className="hover:text-primary">
+                <a href="/" className="hover:text-primary">
                   Instagram
                 </a>
               </li>
@@ -114,7 +114,7 @@ export const Footer = () => {
                   alt="Instagram"
                   className="w-4 h-4 transition-transform transform hover:scale-110 mr-2"
                 />
-                <a href="#" className="hover:text-primary">
+                <a href="/" className="hover:text-primary">
                   Pinterest
                 </a>
               </li>
@@ -124,7 +124,7 @@ export const Footer = () => {
                   alt="Instagram"
                   className="w-4 h-4 transition-transform transform hover:scale-110 mr-2"
                 />
-                <a href="#" className="hover:text-primary">
+                <a href="/" className="hover:text-primary">
                   YouTube
                 </a>
               </li>
@@ -153,17 +153,17 @@ export const Footer = () => {
             <p className="mb-2 font-bold">&copy; 2024 Your Company. All rights reserved.</p>
             <ul className="flex justify-center lg:justify-start space-x-4 mb-4 lg:mb-0">
               <li>
-                <a href="#" className="hover:text-primary">
+                <a href="/" className="hover:text-primary">
                   Privacy Policy
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-primary">
+                <a href="/" className="hover:text-primary">
                   Terms of Service
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-primary">
+                <a href="/" className="hover:text-primary">
                   FAQ
                 </a>
               </li>

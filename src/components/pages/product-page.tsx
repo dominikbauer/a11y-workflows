@@ -154,7 +154,7 @@ export const ProductPage = () => {
                   <div className="flex items-center mb-8">
                     <span>★★★★★</span>
                     <span className="ml-2">(0 Reviews)</span>
-                    <a href="#" className="ml-4 text-primary font-semibold">
+                    <a href="/" className="ml-4 text-primary font-semibold">
                       Write a review
                     </a>
                   </div>
@@ -162,7 +162,7 @@ export const ProductPage = () => {
                     <p className="mb-2">
                       Brand:
                       <strong>
-                        <a href="#" className="hover:text-primary">
+                        <a href="/" className="hover:text-primary">
                           {' '}
                           Nike
                         </a>
@@ -204,35 +204,35 @@ export const ProductPage = () => {
                 </div>
                 {/* Social sharing */}
                 <div className="flex space-x-4 my-6">
-                  <a href="#" className="w-4 h-4 flex items-center justify-center">
+                  <a href="/" className="w-4 h-4 flex items-center justify-center">
                     <img
                       src="assets/images/social_icons/facebook.svg"
                       alt="Facebook"
                       className="w-4 h-4 transition-transform transform hover:scale-110"
                     />
                   </a>
-                  <a href="#" className="w-4 h-4 flex items-center justify-center">
+                  <a href="/" className="w-4 h-4 flex items-center justify-center">
                     <img
                       src="assets/images/social_icons/instagram.svg"
                       alt="Instagram"
                       className="w-4 h-4 transition-transform transform hover:scale-110"
                     />
                   </a>
-                  <a href="#" className="w-4 h-4 flex items-center justify-center">
+                  <a href="/" className="w-4 h-4 flex items-center justify-center">
                     <img
                       src="assets/images/social_icons/pinterest.svg"
                       alt="Pinterest"
                       className="w-4 h-4 transition-transform transform hover:scale-110"
                     />
                   </a>
-                  <a href="#" className="w-4 h-4 flex items-center justify-center">
+                  <a href="/" className="w-4 h-4 flex items-center justify-center">
                     <img
                       src="assets/images/social_icons/twitter.svg"
                       alt="Twitter"
                       className="w-4 h-4 transition-transform transform hover:scale-110"
                     />
                   </a>
-                  <a href="#" className="w-4 h-4 flex items-center justify-center">
+                  <a href="/" className="w-4 h-4 flex items-center justify-center">
                     <img
                       src="assets/images/social_icons/viber.svg"
                       alt="Viber"
@@ -356,23 +356,23 @@ export const ProductPage = () => {
                       <h3 className="text-lg font-semibold mb-2">Colors</h3>
                       <p className="text-base text-gray-700">
                         Available colors:
-                        <a href="#" className="text-primary hover:underline">
+                        <a href="/" className="text-primary hover:underline">
                           Red
                         </a>
                         ,
-                        <a href="#" className="text-primary hover:underline">
+                        <a href="/" className="text-primary hover:underline">
                           Blue
                         </a>
                         ,
-                        <a href="#" className="text-primary hover:underline">
+                        <a href="/" className="text-primary hover:underline">
                           Green
                         </a>
                         ,
-                        <a href="#" className="text-primary hover:underline">
+                        <a href="/" className="text-primary hover:underline">
                           Black
                         </a>
                         ,
-                        <a href="#" className="text-primary hover:underline">
+                        <a href="/" className="text-primary hover:underline">
                           White
                         </a>
                         .
@@ -382,7 +382,7 @@ export const ProductPage = () => {
                       <h3 className="text-lg font-semibold mb-2">Brand</h3>
                       <p className="text-base text-gray-700">
                         This t-shirt is made by
-                        <a href="#" className="text-primary hover:underline">
+                        <a href="/" className="text-primary hover:underline">
                           Nike
                         </a>
                         .
