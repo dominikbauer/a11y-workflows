@@ -1,4 +1,4 @@
-import { expect, test } from '@playwright/test';
+import { test, expect } from './axe-fixtures';
 
 test.describe('Products List Page Axe Developer Hub', () => {
   test('check elements', async ({ page }) => {
