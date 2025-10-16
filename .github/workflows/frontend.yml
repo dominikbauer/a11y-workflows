@@ -42,6 +42,7 @@ jobs:
         env:
           AXE_DEVHUB_API_KEY: ${{ secrets.AXE_DEVHUB_API_KEY }}
   axe-dev-hub:
+    if: ${{ !inputs.skip-e2e }}
     runs-on: ubuntu-latest
     needs: [e2e]
     steps:
@@ -52,6 +53,7 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     needs: [axe-dev-hub]
+    if: ${{always() && !cancelled() && (success() || !inputs.skip-e2e)}}
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
