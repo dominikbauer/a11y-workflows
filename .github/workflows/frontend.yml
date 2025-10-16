@@ -5,6 +5,12 @@ on:
     branches:
       - main
   workflow_dispatch:
+    inputs:
+      skip-e2e:
+        type: boolean
+        description: 'Skip e2e test'
+        required: false
+        default: false
 
 permissions:
   contents: write
@@ -12,6 +18,25 @@ permissions:
   id-token: write
 
 jobs:
+  e2e:
+    if: ${{ !inputs.skip-e2e }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Build
+        run: npm run build
+        continue-on-error: true
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
@@ -21,8 +46,8 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
-          cache: "npm"
+          node-version: '20'
+          cache: 'npm'
 
       - name: Install Dependencies
         run: npm ci
