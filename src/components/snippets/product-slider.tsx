@@ -13,7 +13,7 @@ export const ProductSlider = () => {
                 our latest collection.
               </p>
               <a
-                href="/"
+                href="#"
                 className="bg-primary hover:bg-transparent text-white hover:text-white border border-transparent hover:border-white font-semibold px-4 py-2 rounded-full inline-block"
               >
                 Shop now
@@ -30,7 +30,7 @@ export const ProductSlider = () => {
                 sportswear and casual fashion.
               </p>
               <a
-                href="/"
+                href="#"
                 className="bg-white hover:bg-transparent text-black hover:text-white font-semibold px-4 py-2 rounded-full inline-block border border-transparent hover:border-white"
               >
                 Shop now
@@ -47,7 +47,7 @@ export const ProductSlider = () => {
                 sportswear collection.
               </p>
               <a
-                href="/"
+                href="#"
                 className="bg-primary hover:bg-transparent text-white hover:text-white border border-transparent hover:border-white font-semibold px-4 py-2 rounded-full inline-block"
               >
                 Shop now

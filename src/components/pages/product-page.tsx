@@ -3,7 +3,7 @@ import { Link } from 'react-router';
 import { ProductsTeaserList } from '../snippets/products-teaser-list';
 
 export const ProductPage = () => {
-  const [mainImage, setMainImage] = useState('/assets/images/products/1.jpg');
+  const [mainImage, setMainImage] = useState('assets/images/products/1.jpg');
 
   const changeImage = (imgUrl: string) => {
     setMainImage(imgUrl);
@@ -101,8 +101,8 @@ export const ProductPage = () => {
                     {/* Small Images */}
                     <div>
                       <img
-                        onClick={() => changeImage('/assets/images/single-product/1.jpg')}
-                        data-full="/assets/images/single-product/1.jpg"
+                        onClick={() => changeImage('assets/images/single-product/1.jpg')}
+                        data-full="assets/images/single-product/1.jpg"
                         src="assets/images/single-product/1.jpg"
                         className="object-cover object-center max-h-30 max-w-full rounded-lg cursor-pointer"
                         alt="Gallery Image 1"
@@ -110,8 +110,8 @@ export const ProductPage = () => {
                     </div>
                     <div>
                       <img
-                        onClick={() => changeImage('/assets/images/single-product/2.jpg')}
-                        data-full="/assets/images/single-product/2.jpg"
+                        onClick={() => changeImage('assets/images/single-product/2.jpg')}
+                        data-full="assets/images/single-product/2.jpg"
                         src="assets/images/single-product/2.jpg"
                         className="object-cover object-center max-h-30 max-w-full rounded-lg cursor-pointer"
                         alt="Gallery Image 2"
@@ -119,8 +119,8 @@ export const ProductPage = () => {
                     </div>
                     <div>
                       <img
-                        onClick={() => changeImage('/assets/images/single-product/3.jpg')}
-                        data-full="/assets/images/single-product/3.jpg"
+                        onClick={() => changeImage('assets/images/single-product/3.jpg')}
+                        data-full="assets/images/single-product/3.jpg"
                         src="assets/images/single-product/3.jpg"
                         className="object-cover object-center max-h-30 max-w-full rounded-lg cursor-pointer"
                         alt="Gallery Image 3"
@@ -128,8 +128,8 @@ export const ProductPage = () => {
                     </div>
                     <div>
                       <img
-                        onClick={() => changeImage('/assets/images/single-product/4.jpg')}
-                        data-full="/assets/images/single-product/4.jpg"
+                        onClick={() => changeImage('assets/images/single-product/4.jpg')}
+                        data-full="assets/images/single-product/4.jpg"
                         src="assets/images/single-product/4.jpg"
                         className="object-cover object-center max-h-30 max-w-full rounded-lg cursor-pointer"
                         alt="Gallery Image 4"
@@ -137,8 +137,8 @@ export const ProductPage = () => {
                     </div>
                     <div>
                       <img
-                        onClick={() => changeImage('/assets/images/single-product/5.jpg')}
-                        data-full="/assets/images/single-product/5.jpg"
+                        onClick={() => changeImage('assets/images/single-product/5.jpg')}
+                        data-full="assets/images/single-product/5.jpg"
                         src="assets/images/single-product/5.jpg"
                         className="object-cover object-center max-h-30 max-w-full rounded-lg cursor-pointer"
                         alt="Gallery Image 5"
