@@ -1,6 +1,6 @@
 import { test, expect } from './axe-fixtures';
 
-test.describe('Home Page', () => {
+test.describe('Home Page Axe Developer Hub', () => {
   test('check for components', async ({ page }) => {
     await page.goto('/');
 
